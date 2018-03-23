@@ -6,14 +6,14 @@ using System.Collections.Generic;
 namespace SQLUserCreate
 {
 	public class MySqlHelper {
-		private static string ConnectionStr = "server=localhost;User Id=root;password=abc@123456;Database=yundaclient";
+		private static string ConnectionStr = "server=localhost;User Id=root;password=123456;Database=client";
         private static MySqlConnection conForExecuteDataSetV2 = new MySqlConnection(ConnectionStr);
         private static MySqlCommand comForExecuteDataSetV2 = new MySqlCommand();
         private static MySqlConnection longCon = new MySqlConnection(ConnectionStr);
         private static MySqlCommand longCommand = new MySqlCommand();
 
         //Database=information_schema
-        private static string ConnectionStrInfoSchema = "server=localhost;User Id=root;password=abc@123456;Database=yundaclient";
+        private static string ConnectionStrInfoSchema = "server=localhost;User Id=root;password=123456;Database=client";
 
         static MySqlHelper()
         {
