@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NettyService", "NettyServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NettyTest", "NettyTest\NettyTest.csproj", "{088DDF3A-D602-4CCA-BDAF-BE512980B710}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper框架使用Demo", "Dapper框架使用Demo\Dapper框架使用Demo.csproj", "{F981E962-34B0-465A-AFAA-FA993043BAD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,14 @@ Global
 		{088DDF3A-D602-4CCA-BDAF-BE512980B710}.Release|Any CPU.Build.0 = Release|Any CPU
 		{088DDF3A-D602-4CCA-BDAF-BE512980B710}.Release|x86.ActiveCfg = Release|Any CPU
 		{088DDF3A-D602-4CCA-BDAF-BE512980B710}.Release|x86.Build.0 = Release|Any CPU
+		{F981E962-34B0-465A-AFAA-FA993043BAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F981E962-34B0-465A-AFAA-FA993043BAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F981E962-34B0-465A-AFAA-FA993043BAD8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F981E962-34B0-465A-AFAA-FA993043BAD8}.Debug|x86.Build.0 = Debug|Any CPU
+		{F981E962-34B0-465A-AFAA-FA993043BAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F981E962-34B0-465A-AFAA-FA993043BAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F981E962-34B0-465A-AFAA-FA993043BAD8}.Release|x86.ActiveCfg = Release|Any CPU
+		{F981E962-34B0-465A-AFAA-FA993043BAD8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
